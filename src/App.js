@@ -1,12 +1,16 @@
 import React from 'react';
-import Accordion from './components/accordion/Accordion';
+import Accordion from './components/accordion/accordion';
+import RandomColor from './components/RandomColor/RandomColor';
 import './App.css';
 
 
 function App() {
   return (
     <div>
-      <Accordion />
+      {/* Accordions */}
+      {/* <Accordion /> */}
+      {/* Random Color Generator */}
+      <RandomColor />
     </div>
   )
 }
