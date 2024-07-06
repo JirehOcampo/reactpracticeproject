@@ -1,10 +1,14 @@
+import React from 'react';
+import Accordion from './components/accordion/Accordion';
 import './App.css';
-import accordion from "./components/accordion/accordion"
+
 
 function App() {
-  return <div>
-    <accordion />
-  </div>
+  return (
+    <div>
+      <Accordion />
+    </div>
+  )
 }
 
 export default App;
